@@ -1,0 +1,30 @@
+.section-meet{
+  background-color: #ebfbff;
+  text-align: center;
+  padding-bottom: 140px;
+  button {
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+    margin-top: 40px;
+    outline: none;
+    border: none;
+    background-color: #0f5889;
+
+    
+    h2 {
+      font-size: 24px;
+      font-weight: 100;
+      
+    }
+    
+    &:hover {
+      background-color: white;
+      border: 1px solid #0f5889;
+      color: #0f5889;
+    }
+  }
+}

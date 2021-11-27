@@ -1,0 +1,102 @@
+.item-market{
+    width: 335px;
+    height: 454px;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.2s ease-in-out;
+    margin-top: 50px;
+&:hover{
+    transform: scale(1.02);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.596);
+    cursor:pointer;
+}
+    .nft-img{
+        width: 335px;
+        height: 335px;
+        img{
+            width: 100%;
+            border-left: 1px solid rgb(201, 201, 201);
+            border-right: 1px solid rgb(201, 201, 201);
+            border-top:1px solid rgb(201, 201, 201);
+        }
+
+    }
+
+    .nft-info{
+        width: 100%;
+        height:180px;
+        display: flex;
+        border-left: 1px solid rgb(201, 201, 201);
+        border-right: 1px solid rgb(201, 201, 201);
+        border-bottom: 1px solid rgb(201, 201, 201);
+        .data_container{
+            width: 70%;
+            padding: 5px;
+
+            h5{
+                color:rgb(43, 43, 43);
+                font-weight: bold;
+            }
+
+            h6{
+                color:rgb(24, 24, 24);
+                font-weight: bold;
+            }
+        }
+
+        .price_container{
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-end;
+            width: 30%;
+            padding: 5px;
+        }
+    }
+    .bottom-container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 100%;
+        height: 100px;
+        border-left: 1px solid rgb(201, 201, 201);
+        border-right: 1px solid rgb(201, 201, 201);
+        border-bottom: 1px solid rgb(201, 201, 201);
+
+        .quantity{
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            background-color:#2080E3;
+            border: 1px solid #2080E3;
+        }
+    }
+}
+
+
+@media (max-width:435px){
+    .item-market{
+        
+        width: 285px;
+        height: 444px;
+        .nft-img{
+            width: 100%;
+        img{
+            width: 100%;
+        }
+    }
+    }
+}
+@media (max-width:365px){
+    .item-market{
+        width: 225px;
+        height: 404px;
+        .nft-img{
+            width: 100%;
+        img{
+            width: 100%;
+        }
+    }
+    }
+}

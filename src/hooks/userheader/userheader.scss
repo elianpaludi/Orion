@@ -1,0 +1,67 @@
+.container-user {
+  width: 500px;
+  height: 500px;
+  background-color: rgb(228, 228, 228);
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  .nft-header {
+    width: 100%;
+    height: 85%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background-color: rgb(135, 189, 250);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    img{
+      border-top-right-radius: 20px;
+      border-top-left-radius: 20px;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  div.footer {
+    display: flex;
+    align-items: center;
+    height: 15%;
+    padding: 0 !important;
+    border-right: 1px solid rgb(228, 228, 228);
+    border-bottom: 1px solid rgb(228, 228, 228);
+    border-left: 1px solid rgb(228, 228, 228);
+    img {
+      border-radius: 50%;
+      border: 2px solid blue;
+      margin-left: 15px;
+      margin-right: 15px;
+    }
+
+    div {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+    p {
+        margin: 0;
+
+    &:nth-child(1){
+        font-size: 20px;
+    
+        color: rgb(0, 0, 0);
+    }
+
+    &:nth-child(2){
+        font-size: 14px;
+        font-weight: 100;
+        color: rgb(0, 0, 0);
+    }
+    }
+      }
+    }
+  }
+
