@@ -8,7 +8,7 @@ const handleMarket = () => {
 const Meet = () => {
 
     return (
-        <section class="section-meet">
+        <section className="section-meet">
             <h2>Meet Orion</h2>
             <p>The NFT marketplace with everthing for everyone</p>
 

@@ -1,5 +1,4 @@
 import React from 'react'
-
 import './header.scss'
 import './headerRS.scss'
 
@@ -10,15 +9,15 @@ const Header = () => {
     return (
         <header>
         <div className="container-header-flex">
-            <div class="container-text">
+            <div className="container-text">
                 <h2>Discover, collect, and sell extraordinary NFTs</h2>
-                <h3>on the world's first & largest NFT marketplace</h3>
+                <h3>on the world's first `` largest NFT marketplace</h3>
                 <div>
                     <button>Explore</button>
                     <button>Create</button>
                 </div>
             </div>
-            <div class="container-bestseller">
+            <div className="container-bestseller">
                 <Userheader/>
             </div>
         </div>

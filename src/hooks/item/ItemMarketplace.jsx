@@ -1,7 +1,8 @@
 import React from 'react'
-import './item.scss'
+
 import CollectionsIcon from '@material-ui/icons/Collections';
 
+import './item.scss'
 
 const ItemMarketplace = ({ getNFT, nameNFT, authorNFT, priceNFT }) => {
   return (

@@ -1,5 +1,6 @@
 import React from 'react'
 import 'bulma/css/bulma.min.css'
+
 import './register.scss'
 
 let err = ''
@@ -27,41 +28,41 @@ const login = () => {
 const Register = () => {
   return (
     <form onSubmit={validation}>
-      <label class="label">
+      <label className="label">
         Full name <span>{err}</span>
       </label>
-      <div class="control">
+      <div className="control">
         <input
           id="fullname"
-          class="input"
+          className="input"
           type="text"
           placeholder="Marshall Bruce Mathers"
         />
       </div>
-      <label class="label">Artistic name</label>
-      <div class="control">
-        <input id="name" class="input" type="text" placeholder="Eminem" />
+      <label className="label">Artistic name</label>
+      <div className="control">
+        <input id="name" className="input" type="text" placeholder="Eminem" />
       </div>
-      <label class="label">Email</label>
-      <div class="control">
+      <label className="label">Email</label>
+      <div className="control">
         <input
           id="email"
-          class="input"
+          className="input"
           type="text"
           placeholder="slimshady@gmail.com"
         />
       </div>
-      <label class="label">Password</label>
-      <div class="control">
+      <label className="label">Password</label>
+      <div className="control">
         <input
           id="password"
-          class="input"
+          className="input"
           type="password"
           placeholder="********"
         />
       </div>
-      <p class="help">6 characters, two of them must be numbers</p>
-      <input type="submit" class="button is-link" value="Continue" />
+      <p className="help">6 characters, two of them must be numbers</p>
+      <input type="submit" className="button is-link" value="Continue" />
       {/* <div className="progress-container">
           <progress class="progress is-link" value="15" max="100">15%</progress>
       </div> */}

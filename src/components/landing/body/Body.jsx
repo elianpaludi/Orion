@@ -1,9 +1,11 @@
 import React from 'react'
+import sale from './../../../img/sale.svg'
+import wallet from './../../../img/wallet.svg'
+import nft from './../../../img/nft.svg'
+import collection from './../../../img/collection.svg'
+
 import './body.scss'
-import sale from '../../../img/sale.svg'
-import wallet from '../../../img/wallet.svg'
-import nft from '../../../img/nft.svg'
-import collection from '../../../img/collection.svg'
+
 
 const Body = () => {
     return (

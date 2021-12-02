@@ -7,14 +7,13 @@ import Footer from '../components/landing/footer/Footer.jsx'
 
 import Category from '../hooks/category/Category.jsx'
 import '../hooks.scss'
-
 const landing = () => {
   return (
     <div>
       <Nav />
       <Header />
       <Body />
-      <div class="category-flex">
+      <div className="category-flex">
         <Category
           img={
             'https://www.eluniversal.com.mx/sites/default/files/2015/06/10/noche_estrellada_entender_arte_st.jpg'

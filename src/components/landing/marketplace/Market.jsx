@@ -2,12 +2,12 @@ import React from 'react'
 
 import ItemMarketplace from '../../../hooks/item/ItemMarketplace.jsx'
 import DoubleArrowIcon from '@material-ui/icons/DoubleArrow'
-import './market.scss'
 
+import './market.scss'
 const Market = () => {
   return (
     <main className="market-container">
-      <section class="filters">
+      <section className="filters">
         <DoubleArrowIcon />
       </section>
 
